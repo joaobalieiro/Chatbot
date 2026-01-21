@@ -61,7 +61,7 @@ Comando    | Efeito
 
 Esses comandos são tratados no loop principal, antes de chamar chatbot.get_response(...).
 
-O que este projeto demonstra (para avaliação técnica)
+O que este projeto demonstra
 
 - Higienização de dados textuais “do mundo real”
   Exportações de chat carregam ruído (metadados, linhas vazias, mídia omitida). O cleaner.py centraliza esse pré-processamento e mantém o treinamento desacoplado do formato bruto.
